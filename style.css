@@ -1,0 +1,103 @@
+@font-face {
+  font-family: france;
+  src: url(Fraunces/myfont2.ttf);
+}
+@font-face {
+  font-family: monte;
+  src: url(Montserrat/mf.ttf);
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  float: left;
+  width: 50%;
+}
+
+h1 {
+  font-family: france;
+  font-size: 40px;
+  font-weight: 700;
+  width: 90%;
+  color: hsl(212, 21%, 14%);
+  line-height: 100%;
+}
+
+p {
+  font-size: 14px;
+  font-family: monte;
+  color: hsl(228, 12%, 48%);
+}
+
+.product {
+  border-radius: 15px;
+  background-color: white;
+  margin: 15%;
+  height: auto;
+  width: 50%;
+}
+
+.desc {
+  margin-left: 50%;
+  padding: 3% 5%;
+}
+
+.description {
+  font-family: monte;
+  line-height: 170%;
+  width: 83;
+  color: hsl(228, 12%, 48%);
+  font-weight: 600;
+}
+
+.price {
+  padding-top: 10%;
+  font-family: france;
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(158, 36%, 37%);
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  font-family: monte;
+  font-size: 17px;
+  color: rgb(170, 170, 170);
+  font-weight: 500;
+  left: 73%;
+  top: 55%;
+  text-decoration: line-through;
+}
+
+.cart-button {
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+}
+
+.cart-button:hover {
+  background-color: hsl(158, 36%, 27%);
+}
+
+.cart {
+  margin-top: 8%;
+  padding: 6%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: monte;
+  font-weight: 500;
+}
+.cart-icon {
+  width: 7.5%;
+  padding-right: 5%;
+  padding-top: auto;
+  text-align: center;
+}
